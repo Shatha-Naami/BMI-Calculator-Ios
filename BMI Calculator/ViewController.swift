@@ -61,7 +61,7 @@ class ViewController: UIViewController {
         }
         
         // floraAuthData
-        bmiDataChannel.invokeMethod("x", arguments: convertedString)
+        bmiDataChannel.invokeMethod("fromHostToClient", arguments: convertedString)
         
     }
 
