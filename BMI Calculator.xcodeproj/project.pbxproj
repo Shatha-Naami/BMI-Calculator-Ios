@@ -10,20 +10,28 @@
 		8EB94D752A1252D1004932CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB94D742A1252D1004932CC /* AppDelegate.swift */; };
 		8EB94D772A1252D1004932CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB94D762A1252D1004932CC /* SceneDelegate.swift */; };
 		8EB94D792A1252D1004932CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB94D782A1252D1004932CC /* ViewController.swift */; };
-		8EB94D7C2A1252D1004932CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB94D7A2A1252D1004932CC /* Main.storyboard */; };
 		8EB94D7E2A1252D2004932CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB94D7D2A1252D2004932CC /* Assets.xcassets */; };
 		8EB94D812A1252D2004932CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB94D7F2A1252D2004932CC /* LaunchScreen.storyboard */; };
+		8EB94D892A125396004932CC /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB94D882A125396004932CC /* BMI.swift */; };
+		8EB94D8B2A1253B2004932CC /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB94D8A2A1253B2004932CC /* CalculatorBrain.swift */; };
+		8EB94D8D2A1255DD004932CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB94D8C2A1255DD004932CC /* Main.storyboard */; };
+		90EAB201115B39733344B89D /* Pods_BMI_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5B9CFA0AE7594CA6EF352A /* Pods_BMI_Calculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B6BAFFA35428973A0578521 /* Pods-BMI Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMI Calculator.debug.xcconfig"; path = "Target Support Files/Pods-BMI Calculator/Pods-BMI Calculator.debug.xcconfig"; sourceTree = "<group>"; };
 		8EB94D712A1252D1004932CC /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB94D742A1252D1004932CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB94D762A1252D1004932CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8EB94D782A1252D1004932CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EB94D7B2A1252D1004932CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EB94D7D2A1252D2004932CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EB94D802A1252D2004932CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EB94D822A1252D2004932CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB94D882A125396004932CC /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		8EB94D8A2A1253B2004932CC /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		8EB94D8C2A1255DD004932CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AA5B9CFA0AE7594CA6EF352A /* Pods_BMI_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMI_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F6741C020F59C0800B8473 /* Pods-BMI Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMI Calculator.release.xcconfig"; path = "Target Support Files/Pods-BMI Calculator/Pods-BMI Calculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EAB201115B39733344B89D /* Pods_BMI_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33C9848A2FFB7005CA7347E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5B9CFA0AE7594CA6EF352A /* Pods_BMI_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8EB94D682A1252D1004932CC = {
 			isa = PBXGroup;
 			children = (
 				8EB94D732A1252D1004932CC /* BMI Calculator */,
 				8EB94D722A1252D1004932CC /* Products */,
+				E4058502F85B813392F3B0CF /* Pods */,
+				33C9848A2FFB7005CA7347E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,26 @@
 		8EB94D732A1252D1004932CC /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				8EB94D8C2A1255DD004932CC /* Main.storyboard */,
 				8EB94D742A1252D1004932CC /* AppDelegate.swift */,
 				8EB94D762A1252D1004932CC /* SceneDelegate.swift */,
 				8EB94D782A1252D1004932CC /* ViewController.swift */,
-				8EB94D7A2A1252D1004932CC /* Main.storyboard */,
 				8EB94D7D2A1252D2004932CC /* Assets.xcassets */,
 				8EB94D7F2A1252D2004932CC /* LaunchScreen.storyboard */,
 				8EB94D822A1252D2004932CC /* Info.plist */,
+				8EB94D882A125396004932CC /* BMI.swift */,
+				8EB94D8A2A1253B2004932CC /* CalculatorBrain.swift */,
 			);
 			path = "BMI Calculator";
+			sourceTree = "<group>";
+		};
+		E4058502F85B813392F3B0CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B6BAFFA35428973A0578521 /* Pods-BMI Calculator.debug.xcconfig */,
+				E2F6741C020F59C0800B8473 /* Pods-BMI Calculator.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EB94D852A1252D2004932CC /* Build configuration list for PBXNativeTarget "BMI Calculator" */;
 			buildPhases = (
+				19F9368265B7D7E8EA47F8BB /* [CP] Check Pods Manifest.lock */,
+				9631DC1F743E5EB3F3A85877 /* [CP-User] Run Flutter Build bmi_flutter Script */,
 				8EB94D6D2A1252D1004932CC /* Sources */,
 				8EB94D6E2A1252D1004932CC /* Frameworks */,
 				8EB94D6F2A1252D1004932CC /* Resources */,
+				5F1A8C53384D775F4F4B97CE /* [CP-User] Embed Flutter Build bmi_flutter Script */,
 			);
 			buildRules = (
 			);
@@ -125,21 +158,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB94D8D2A1255DD004932CC /* Main.storyboard in Resources */,
 				8EB94D812A1252D2004932CC /* LaunchScreen.storyboard in Resources */,
 				8EB94D7E2A1252D2004932CC /* Assets.xcassets in Resources */,
-				8EB94D7C2A1252D1004932CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19F9368265B7D7E8EA47F8BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BMI Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F1A8C53384D775F4F4B97CE /* [CP-User] Embed Flutter Build bmi_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build bmi_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../bmi_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		9631DC1F743E5EB3F3A85877 /* [CP-User] Run Flutter Build bmi_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build bmi_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../bmi_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8EB94D6D2A1252D1004932CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB94D892A125396004932CC /* BMI.swift in Sources */,
 				8EB94D792A1252D1004932CC /* ViewController.swift in Sources */,
 				8EB94D752A1252D1004932CC /* AppDelegate.swift in Sources */,
+				8EB94D8B2A1253B2004932CC /* CalculatorBrain.swift in Sources */,
 				8EB94D772A1252D1004932CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +227,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8EB94D7A2A1252D1004932CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EB94D7B2A1252D1004932CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8EB94D7F2A1252D2004932CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +354,7 @@
 		};
 		8EB94D862A1252D2004932CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6BAFFA35428973A0578521 /* Pods-BMI Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +368,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +384,7 @@
 		};
 		8EB94D872A1252D2004932CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F6741C020F59C0800B8473 /* Pods-BMI Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +398,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
